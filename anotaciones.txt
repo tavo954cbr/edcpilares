@@ -1,0 +1,20 @@
+<ul></ul>sirve para agregar listas no ordenadas
+<ol></ol>sirve para agregar listas ordenadas
+}
+
+El " asaid" sirve para colocar elementos o informacion no tan relevante , como referencia en lo actualidad 
+sirve para poner publicidad
+Ejercicio 1
+Crea una página HTML que contenga lo siguiente:
+
+Un encabezado <h1> que diga "Mi página web".
+Un párrafo <p> que contenga el siguiente texto: "Bienvenidos a mi página web".
+Una imagen <img> con el siguiente atributo src: "https://picsum.photos/id/[num_id]/600/400">.
+num_id = puede tomar un valor entre el 1 y 1084
+
+Ejercicio 2
+Crea una página HTML que contenga lo siguiente:
+
+Una lista <ul> que contenga tres elementos <li>, cada uno con un enlace <a> a una página web diferente.
+Cada enlace debe tener un texto diferente, como "Google", "Facebook" y "Twitter".
+Cada enlace debe abrirse en una nueva pestaña del navegador.
