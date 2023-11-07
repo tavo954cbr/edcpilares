@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ej2</title>
 
-    <style>
+    <!-- <style>
         body{
             text-align: center;
         }
@@ -28,7 +28,7 @@
         }
         
         
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -38,28 +38,26 @@
         <h1>Titulo 1</h1>
         <p>Parrafo 1: Et velit sit cillum laboris elit ut sit esse.</p>
     </hgroup>
-        <nav style="background-color: #F7D1D5;">
-            <ul>
-                <a style="background-color: #7ab;" href="#">Home</a>
-                <a style="background-color: #7ab;" href="#">Pagina 1</a>
-                <a style="background-color: #7ab;" href="#">Pagina 2</a>
-                <a style="background-color: #7ab;" href="#">Pagina 3</a>
-                <a style="background-color: #7ab;" href="#">Pagina 4</a>
-            </ul>
+        <nav style="background-color: #F7D1D5;" style="display: flex; justify-content: space-around;">
+                <a href="#">Home</a>
+                <a href="#">Pagina 1</a>
+                <a href="#">Pagina 2</a>
+                <a href="#">Pagina 3</a>
+                <a href="#">Pagina 4</a>
         </nav>
 </header>
 
-    <main>
-        <section>
+    <main style="display: flex;">
+        <section style="width: 70%;">
         <hgroup style="background-color: #B0A1F2;">
-            <h2>Titulo de articulo</h2>
+            <h1>Titulo de articulo</h1>
             </hgroup>
-            <article style="background-color: #A8F2A1;">
+            <article style="background-color: #A8F2A1; display: flex;">
                 <figure>
                     <img src="https://picsum.photos/id/756/600/400" alt="">
                     <figcaption>Puente de San Francisco</figcaption>
                 </figure>
-                <p>In dolore in magna irure tempor laborum magna elit excepteur amet sunt anim. Enim commodo amet labore
+                <p style="width: 50%;">In dolore in magna irure tempor laborum magna elit excepteur amet sunt anim. Enim commodo amet labore
                     commodo incididunt Lorem aliquip nulla. Occaecat ipsum veniam ipsum amet velit amet proident duis
                     laboris fugiat culpa veniam. Consectetur labore nisi incididunt laborum anim eiusmod ad qui nulla
                     consequat cillum.
@@ -70,9 +68,10 @@
                     Lorem tempor deserunt ut.</p>
             </article>
                 <hgroup style="background-color: #F2ADA1;">
-                    <h2>Titulo de la sección</h2>
+                    <h1>Titulo de la sección</h1>
                 </hgroup>
-                        <article style="background-color: #DBB4DC;">
+                <section style="display: flex;">
+                        <article style="background-color: #DBB4DC; width: 50%;">
                         <h2>Titulo del articulo 1</h2>
                             <p>Est velit aliquip officia ipsum qui. Occaecat Lorem ea ex nostrud laborum quis reprehenderit
                                 ullamco id dolore. Ullamco sint irure sunt Lorem. Occaecat labore eu incididunt incididunt.
@@ -83,7 +82,7 @@
                                 deserunt Lorem cupidatat aliqua nostrud ipsum est qui sunt. Ipsum aute excepteur aute
                                 laborum dolore aliquip exercitation commodo velit dolore cillum do sunt.</p>
                         </article>
-                        <article style="background-color: #DBB4DC;">
+                        <article style="background-color: #DBB4DC; width: 50%;">
                             <h2>Titulo del articulo 2</h2>
                             <p>Culpa sint nulla officia tempor mollit Lorem veniam nisi consectetur ut exercitation Lorem et
                                 officia. Sint est occaecat ullamco dolor occaecat est veniam nostrud proident sunt cillum.
@@ -92,8 +91,9 @@
                                 pariatur labore dolore. Ipsum nulla est sunt cupidatat eu laborum.</p>
                             <img src="https://picsum.photos/id/643/600/400" alt="">
                         </article>
+                    </section style="display: flex;">
         </section>
-        <aside>
+        <aside style="width: 30%;">
             <div style="background-color: #B4C7DC;">
                 <h3>Bloc de contenido 1</h3>
                 <figure>
@@ -114,8 +114,9 @@
                     <li>Nulla deserunt ex cupidatat commodo ea excepteur.</li>
                 </ul>
             </div>
+            <div>
+            <p>Captura tus datos</p>
             <form action="" style="background-color: #B4C7DC;">
-                <p>Captura tus datos</p>
                 <fieldset>
                     <legend>Edad</legend>
                     <input type="number">
@@ -137,11 +138,12 @@
                     <input type="checkbox">
                 </fieldset>
             </form>
+        </div>
         </aside>
     </main>
     <footer style="background-color: #FFF5CE;">
         <p>
-            <a href="#">Link</a>
+            <a href="#">Licencia</a>
             Duis proident laborum esse ullamco do eiusmod exercitation do sit.
         </p>
         <nav style="background-color: #F7D1D5;">
